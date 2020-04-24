@@ -1,17 +1,257 @@
-﻿.page1{
+﻿
 
-  width: 600px;
-  height:400px;
-  padding:20px;
-  margin: 100px auto;
-  box-shadow: 0px 0px 10px 2px;
-  border: 10px solid black ;
+ .page1{
+   background: linear-gradient(rgba(41, 128, 185,0.7), rgba(142, 68, 173,0.7)), url(usecase-marquee-hr.jpg);
+    -webkit-background-size:cover;
+    background-size:cover;
+    text-align: center;
 
-  background-image: url(main-0311p10_Stock market_i.jpg);
+height: 70vh;
+ padding-top:30vh;
+ }
+
+ .pg1content {
+    display: flex;
+	flex-direction: column ;
+    
+    margin-left:35%;
+    
+    height: auto ;
+    width: 30% ;
+   
+    
+ }
+
+ .whitetext{
+ color:white;
+ }
+
+ .inputsubmit{
+ height:30px;
+ margin-left:10px;
+ margin-right:10px;
+justify-content: space-between;
+ border: 1px;
+ border-radius:20px;
+ 
+ }
+
+
+
+ .page2{
+
+ 
+    display: flex;  
+    flex-direction: column ;
+    height:100vh;
+    
+ 
+ }
+
+ .pg2header{ 
+    height:60vh;
+    
+    text-align:center;
+
+    }
+
+ .pg2headphotos{
+    margin-top:30px;
+    display: flex;  
+    flex-direction: row ;
+    justify-content: space-between; 
+    margin-left:300px;
+    margin-right:300px;
+    
+ 
+ }
+
+ .pg2h{
+    width: 25%;
+    display: flex;  
+    flex-direction: column ;
+    
+    
+     
+ 
+ }
+ 
+ .pg2body{
+
+    height:40vh;
+     background: linear-gradient(rgba(41, 128, 185,0.7), rgba(142, 68, 173,0.7)), url(laptop.jpg);
+    -webkit-background-size:cover;
+    background-size:cover;
+    
+    padding-left:25%;
+    
+
+    display:flex;
+    flex-direction:column;
+
+    padding-top:35px;
+    
+ }
+
+ .page3{
+    display: flex;  
+    flex-direction: column ;
+    
+    height:100vh;
+ }
+
+ .pg3header{
+    display : flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    text-align:center;
+    padding-left:200px;
+    padding-right:200px;
+    
   
+    height:30vh;
+    
+    
+    text-align:center;
+ }
 
-/*
-	height:100vh;
-	width:100wh;
-	*/
+ .pg3headgroup{
+   margin-top:50px;
+   
+    width:15%;
+    heigh:10vh;
+   
+ }
+ 
+ .page3Photo{
+    height:50px;
+    width:50px;
+ 
+ }
+
+
+ .pg3body{
+    background-color:lightgray; 
+    height :70vh;
+    display:flex;
+    flex-direction: row;
+    
+    
+ 
+ }
+
+ .pg3bodycontainer{
+    
+    width:70%;
+    height: 50vh;
+    
+    margin-top: 15vh;
+    margin-left:15%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around ;
+    
+    
+
+ 
+ }
+
+ .pg3bodyBox{
+    display:flex;
+    flex-direction: column;
+    
+    height:50vh;
+    
+    width:40%;
+    
+ }
+
+ .pg4hdtop{
+ 
+ text-align:center;
+ }
+
+ .page4Profiles{
+ padding-top:100px;
+ display:flex;
+ flex-direction: row;
+ justify-content: space-around ;
+
+ 
+ }
+
+ .p4image{
+ 
+ height:150px;
+ width:150px;
+ 
+ }
+
+ .page4hdmiddlecontainer{
+ text-align:center;
+ }
+
+ .h4pg4{
+ color:blue;
+ }
+
+ .page4Bottom{
+ text-align:center;
+ display:flex;
+ flex-direction:row;
+ justify-content: space-around ;
+ 
+
+
+ height:700px;
+     background: linear-gradient(rgba(41, 128, 185,0.7), rgba(142, 68, 173,0.7)), url(laptop.jpg);
+    -webkit-background-size:cover;
+    background-size:cover;
+    }
+
+
+.pg4LeftSide{
+
+margin-top:100px;
+display:flex;
+flex-direction:column;
+width:300px;
+color:white;
+text-align:center;
+height:400px;
+
+padding-top:50px;
+margin-left:200px;
+
+}
+
+
+
+.pg4RightSide{
+margin-top:100px;
+width:600px;
+height:500px;
+
+display:flex;
+flex-direction:column;
+justify-content: space-between ;
+
+}
+
+.horizontalbox{
+
+width:600px;
+height:225px;
+display:flex;
+flex-direction:row;
+
+justify-content: space-around ;
+}
+
+.box{
+width: 275px;
+height: 225px;
+
+color:white;
+
 }
